@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #add8e6; /* Warna biru muda */
+  padding: 10px;
+}
+
+.navbar-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #212529;
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+
+.nav-link:hover {
+  background-color: #e2e6ea;
+  border-radius: 5px;
+}
